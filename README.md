@@ -14,7 +14,7 @@
 - 二次开发文档
   
 # 交流与提问
-
+https://github.com/reyshaw/is-object-not-array/issues
 # 关于作者
 [reyshaw](http://localhost:8080/)
 
