@@ -10,6 +10,10 @@
 - CDN http://demo.com/
 
 # 快速使用
+```
+require('../release/bundle.js') // nodejs
+<script src="https://github.com/reyshaw/is-object-not-array/releases"></script> // broswer
+```
 - 使用文档
 - 二次开发文档
   

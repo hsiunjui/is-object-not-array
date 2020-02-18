@@ -93,4 +93,11 @@ gitbook build
 ```
 
 # npm 发布
--
+- 打tag
+```
+git tag -a tagName -m"comment"
+git push origni tagName
+```
+- npm adduser
+- npm login
+- npm publish .

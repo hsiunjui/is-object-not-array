@@ -1,4 +1,4 @@
-const isObjectNotArray = require('../src/index.js')
+require('../release/bundle.js')
 
 test('[1,3] should return false', () => {
     expect(isObjectNotArray([1, 3])).toBe(false)

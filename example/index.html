@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Object</title>
+    <style>
+        body, p{
+            margin: 0;
+            padding: 0;
+        }
+        span {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
-        <p>行不通,后期修改</p>
+        <p>null is Object: <span class="span"></span></p>
+        <p>[1,3] is Object: <span class="span"></span></p>
+        <p>{} is Object: <span class="span"></span></p>
+        <p>new Obj is Object: <span class="span"></span></p>
     </div>
     <script type="text/javascript" src="../release/bundle.js"></script>
     <script type="text/javascript">
-        import { isObjectNotArray } from '../release/bundle.js'
-        console.log(isObjectNotArray)
+        var spans = document.querySelectorAll('.span')
+        console.log(spans)
+        spans[0].innerHTML = isObjectNotArray(null)
+        spans[1].innerHTML = isObjectNotArray([1,3])
+        spans[2].innerHTML = isObjectNotArray({})
+        var C = function(){
+            this.name = 'name'
+        }
+        var c = new C()
+        spans[3].innerHTML = isObjectNotArray(c)
     </script>
 </body>
 </html>
