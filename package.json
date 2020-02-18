@@ -1,0 +1,36 @@
+{
+  "name": "is-object-not-array",
+  "version": "0.0.1",
+  "description": "return true if the given object is an object and not array or null",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "release": "webpack",
+    "example": "http-server -p 9090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyshaw/is-object-not-array.git"
+  },
+  "keywords": [
+    "is-object",
+    "is-not-array",
+    "isObject",
+    "isNotArray",
+    "is-object-not-array"
+  ],
+  "author": "reyshaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reyshaw/is-object-not-array/issues"
+  },
+  "homepage": "https://github.com/reyshaw/is-object-not-array#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "jest": "^25.1.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
