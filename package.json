@@ -1,6 +1,6 @@
 {
   "name": "is-object-not-array",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "return true if the given object is an object and not array or null",
   "main": "src/index.js",
   "scripts": {
